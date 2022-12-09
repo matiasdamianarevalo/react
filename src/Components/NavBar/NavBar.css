@@ -1,0 +1,35 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+li a:hover {
+    color: grey;
+}
+.logo {
+    margin-top: auto;
+    position: relative;
+    width: 50px;
+    display: block;
+    line-height: 40PX;
+    background-color: black;
+}
+.Navv{
+    height: 80px;
+}

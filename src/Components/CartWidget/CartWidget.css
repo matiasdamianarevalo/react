@@ -1,0 +1,14 @@
+.Cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    min-width: 100px;
+    max-width: 200px;
+    margin: auto;
+    height: 40px;
+}
+.Cartimg{
+    margin: auto;
+}
