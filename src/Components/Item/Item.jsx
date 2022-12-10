@@ -1,19 +1,19 @@
 import ItemCount from "../ItemCount/ItemCount";
-import "./Item.css";
+import "./Style.css";
 
-function Item(prop) {
+function Item(props) {
   return (
     <div className="ContenedorCard">
     <div className="card">
       <div className="card-img">
-        <img src={prop.image} alt={prop.title} />
+        <img src={props.imageUrl} alt={props.title} />
       </div>
-    <div className="card-detail">
-      <span>{prop.category}</span>
-      <h2>{prop.title}</h2>
-      <span>{prop.description}</span>
-      <p>$ {prop.price}</p>
-    </div>
+   <div className="card-detail">
+        <h3>{props.title}</h3>
+        <span>{props.description}</span>
+        <p>$ {props.price}</p>
+        <span>{props.category}</span>
+      </div>
       <ItemCount />
     </div>
     </div>

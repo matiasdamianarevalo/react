@@ -19,15 +19,17 @@ function NavBar() {
         <Link to='/Home' className={({ isActive }) => (isActive ? "white" : "blue")}>Home </Link>
         </li>
         <li>
-        <Link to='/Jordan' className={({ isActive }) => (isActive ? "white" : "blue")}>Jordan </Link> 
+        <Link to='/Jordan/id' className={({ isActive }) => (isActive ? "white" : "blue")}>Jordan </Link> 
         </li>
         <li>
-        <Link to='/Sneakers' className={({ isActive }) => (isActive ? "white" : "blue")}>Sneakers </Link>  
+        <Link to='/Sneakers/id' className={({ isActive }) => (isActive ? "white" : "blue")}>Sneakers </Link>  
         </li>
         <li>
         <Link to='/Contactanos' className={({ isActive }) => (isActive ? "white" : "blue")}>Contactanos </Link>  
         </li>
-        <li><Link to='/CartWidget' className={({ isActive }) => (isActive ? "white" : "blue")}><button type="button" class="btn btn-info"><CartWidget/></button></Link></li>
+        <li>
+        <Link to='/CartWidget'><button><CartWidget/></button></Link>
+        </li>
       </ul>
     </nav>
   </>
