@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import "./Style.css";
 
 
-const ItemListContainer = ({ presentation }) => {
+const ItemListContainer = ({title}) => {
   const [productList, setProductList] = useState([]);
   const { categoryName } = useParams(); 
   console.log(categoryName);
@@ -24,7 +24,7 @@ const ItemListContainer = ({ presentation }) => {
 
   return (
     <>
-    <h1>{presentation}</h1>
+    <h1>{title}</h1>
       <ItemList lista={productList} />{" "}
     </>
   );

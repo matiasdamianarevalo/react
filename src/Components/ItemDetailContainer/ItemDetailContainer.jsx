@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import collections from "../collections";
 
-const ItemListContainer = ({ presentation })  => {
+const ItemListContainer = ({ title })  => {
   const [productList, setProductList] = useState([]);
 
   useEffect(() => {
