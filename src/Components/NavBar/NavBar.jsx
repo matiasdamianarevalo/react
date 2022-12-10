@@ -25,7 +25,7 @@ function NavBar() {
         <Link to='/Sneakers/id' className={({ isActive }) => (isActive ? "white" : "blue")}>Sneakers </Link>  
         </li>
         <li>
-        <Link to='/Contactanos' className={({ isActive }) => (isActive ? "white" : "blue")}>Contactanos </Link>  
+        <Link to='/Contact' className={({ isActive }) => (isActive ? "white" : "blue")}>Contact </Link>  
         </li>
         <li>
         <Link to='/CartWidget'><button><CartWidget/></button></Link>

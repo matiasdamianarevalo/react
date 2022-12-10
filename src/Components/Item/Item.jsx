@@ -15,6 +15,7 @@ function Item(props) {
         <span>{props.category}</span>
       </div>
       <ItemCount />
+      <button>Comprar</button>
     </div>
     </div>
   );

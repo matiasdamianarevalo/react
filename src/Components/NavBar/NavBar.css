@@ -1,22 +1,16 @@
 
-ul {
+ul li{
     list-style-type: none;
     margin: auto;
     padding: 0;
     padding-top: 30px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
     background-color: black;
     text-align: center;
 }
-
-li {
-    text-align: center;
-    float: left;
-    margin: auto;
-}
 li a {
     text-align: center;
-    display: inline-block;
     color: whitesmoke;
     text-align: center;
     padding: 20px;
