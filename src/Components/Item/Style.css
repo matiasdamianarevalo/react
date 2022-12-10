@@ -20,15 +20,14 @@
   margin: auto;
   display:flex;
   justify-content:center;
-  flex-direction: column;
+  flex-direction: row;
+
 }
 
-.ContenedorCard{
-  height: 100%;
-  width: 100%;
-  display: flex;
+.Container{
+  text-align: center;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  display: flex;
 }
-
 
