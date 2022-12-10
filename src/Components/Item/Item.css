@@ -16,12 +16,11 @@
   color:rgb(255, 255, 255);
 }
 
-.card-detail {
+.comp {
   margin: auto;
   display:flex;
   justify-content:center;
-  flex-direction: row;
-
+  flex-direction: column;
 }
 
 .Container{

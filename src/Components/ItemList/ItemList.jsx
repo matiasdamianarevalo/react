@@ -8,13 +8,13 @@ const ItemList = ({ lista }) =>  {
     {lista.map((product)=> (
       <Link 
         id={product.id}
-        to={'/jordan/' + product.id}>
+        to={'/:categoryId' + product.id}>
       <Item className="itemlist"
         id={product.id}
         title={product.title}
         price={product.price}
         imageUrl={product.imageUrl}
-        category={product.category.id} /> 
+        category={product.categoryId} /> 
       </Link>
     ))
     }

@@ -2,7 +2,7 @@ import collections from "../collections";
 import { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
-import "./Style.css";
+import "./ItemListContainer.css";
 
 
 const ItemListContainer = ({title}) => {
@@ -20,6 +20,7 @@ const ItemListContainer = ({title}) => {
     setTimeout(() => {
       resolve(collections);
     }, 2000);
+      
   });
 
   return (

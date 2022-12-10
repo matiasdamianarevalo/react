@@ -2,8 +2,6 @@
 ul li{
     list-style-type: none;
     margin: auto;
-    padding: 0;
-    padding-top: 30px;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -21,13 +19,5 @@ li a:hover {
     color: grey;
 }
 .logo {
-    margin-top: auto;
-    position: relative;
-    width: 50px;
-    display: block;
-    line-height: 40PX;
-    background-color: black;
-}
-.Navv{
-    height: 80px;
+    width: 80px;
 }

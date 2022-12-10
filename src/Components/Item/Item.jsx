@@ -1,5 +1,5 @@
 import ItemCount from "../ItemCount/ItemCount";
-import "./Style.css";
+import "./Item.css";
 
 function Item(props) {
   return (
@@ -8,7 +8,7 @@ function Item(props) {
         <div className="card-img">
         <img src={props.imageUrl} alt={props.title} />
         </div>
-      <div className="card-detail">
+      <div className="comp">
           <h3>{props.title}</h3>
         <span>{props.description}</span>
           <p>$ {props.price}</p>
