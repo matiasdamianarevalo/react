@@ -7,8 +7,8 @@ import "./ItemListContainer.css";
 
 const ItemListContainer = ({title}) => {
   const [productList, setProductList] = useState([]);
-  const { categoryName } = useParams(); 
-  console.log(categoryName);
+  const { categoryId } = useParams(); 
+  console.log(categoryId);
 
   useEffect(() => {
     getProducts.then((response) => {

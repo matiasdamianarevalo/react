@@ -6,9 +6,7 @@ const ItemList = ({ lista }) =>  {
   return (
     <div>
     {lista.map((product)=> (
-      <Link 
-        id={product.id}
-        to={'/:categoryId' + product.id}>
+      <Link>
       <Item className="itemlist"
         id={product.id}
         title={product.title}
